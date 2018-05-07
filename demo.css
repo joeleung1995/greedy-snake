@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #424242;
+}
+.wrapper {
+	width: 600px;
+	margin: 20px auto;
+}
+
+/*地图和蛇*/
+.map {
+	width: 600px;
+	height: 600px;
+	border: 1px solid #424242;
+}
+.map li {
+	width: 18px;
+	height: 18px;
+	border: 1px solid #424242;
+	list-style: none;
+	float: left;
+}
+
+
+/*下部按钮*/
+.btn {
+	width: 600px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+.btn-start,
+.btn-pause {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 40px;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #ccc;
+	user-select: none;
+}
+.btn-start:hover,
+.btn-pause:hover {
+	background-color: #424242;
+	color: #fff;
+}
+
+
+
+.food {
+	background-color: green;
+}
+.snake {
+	background-color: #424242;
+}
